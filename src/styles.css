@@ -5,18 +5,21 @@ body{
     text-align: center;
     margin-top: 146px; 
     background: #F9F7FE;
+    padding: 80px 20px;
 }
 h1{
     
 font-family:
-Playfair Display;
-font-weight: 700;
+"Playfair Display", serif;
+font-weight: bold;
 font-size: 96px;
+color: black;
 
 }
 h3{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    color: black;
     font-size: 24px;
     margin-bottom: 16px;
 }
@@ -31,14 +34,66 @@ h2{
   display: inline-block;
   background: #6C63FF;
   color: #F9F7FE;
-  padding: 18px 30px;
-  border-radius: 6px;
+  padding: 15px 30px;
+  border-radius: 4px;
   text-decoration: none;
   margin: 32px auto;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
 }
 
 .button a{
     color: #F9F7FE;
     text-decoration: none;
     
+}
+.button:hover {
+  color: black;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.links {
+    background-color: white;
+    color: #6C63FF;
+     padding: 15px 30px;  
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+       font-size: 18px;
+    border: 1px solid #6C63FF;
+    line-height: 27px;
+    font-weight: 400;
+}
+.links:hover {
+    background-color:white;
+    color:black;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.p{
+ font-weight: normal;
+ font-size: 16px;
+ line-height: 30px;  
+ color: #212529;
+}
+container{
+    color:#6C757D ;
+}
+@media (max-width:768px){
+    img{
+        display: none;
+    }
+    h1{
+        font-size: 44px;
+        line-height: 2;
+    }
+    .Features{
+        margin: 0 auto;
+    }
+    container{
+        display: flex;
+        justify-content: center;
+    }
 }
