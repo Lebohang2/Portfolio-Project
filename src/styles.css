@@ -3,7 +3,7 @@
     --secondary-color: #F9F7FE;
     --text-color: #212529;
     --font-family-heading: 'Playfair Display', serif;
-    --font-family-body: 'Poppins', sans-serif;
+    --font-family-body: "Poppins", sans-serif;;
     
 }
 
@@ -123,6 +123,23 @@ h2{
     font-family: var(--font-family-body);
     font-weight: 400;
 }
+.work-heading{
+    padding: 100px 20px;
+    margin:20px 0 0;
+}
+.work-heading h1{
+    font-size: 64px;
+    line-height: 80px;
+    color: black;
+}
+.work-info h3{
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: var(--font-family-body);
+}
+.work-info p{
+    font-size: 14px;
+}
 @media (max-width:600px){
     img{
         display: none;
@@ -143,6 +160,9 @@ h2{
     padding: 0;
    }
    .about-page img{
+    display: block !important;
+   }
+   .work-structure img{
     display: block !important;
    }
 }
