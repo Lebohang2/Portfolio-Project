@@ -112,11 +112,12 @@ h2{
     transition: 0.3s;
     cursor: pointer;
 }
-.p{
+p{
  font-weight: 400;
  font-size: 16px;
  line-height: 30px;  
  color: var(--text-color);
+ font-family: var(--font-family-body);
 }
 .container{
     color:#6C757D ;
@@ -216,6 +217,9 @@ footer .contact-section{
     background: var(--secondary-color);
     padding: 30px 120px;
     border-radius: 10px;
+}
+.footer-text{
+    color: var(--text-color);
 }
 @media (max-width:600px){
     img{
